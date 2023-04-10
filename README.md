@@ -14,4 +14,4 @@
 
 
 **Итерации, необходимые для полного обучения (пример)**
-![image](https://user-images.githubusercontent.com/120571667/230972687-c38a8d20-6266-48dd-a6c4-dea0e45618de.png)
+![image](https://user-images.githubusercontent.com/120571667/230986744-f6a8310a-baf8-4684-9f0b-3dc6ace5cb18.png)
