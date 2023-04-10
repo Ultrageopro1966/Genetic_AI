@@ -57,10 +57,6 @@ class ball(pygame.sprite.Sprite):
                 MAIN_AI.W2 = np.array((BALLS.sprites()[0].weights[1] + BALLS.sprites()[1].weights[1])/2)
             except:
                 MAIN_AI.W1, MAIN_AI.W2 = self.weights
-            
-            if timeControl < 100000000:
-                x_data+=1
-                y_data.append(timeControl)
 
         match move: #Движение спрайта
             case 0:
