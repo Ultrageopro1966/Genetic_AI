@@ -20,10 +20,6 @@ running = True
 image = pygame.transform.scale(pygame.image.load("bacteria.png"), (50, 50))
 text1, text2 = f1.render(f"Итерация {count}", False, (100, 100, 100)), f1.render(f"Скорость - {speed}", False, (100, 100, 200))
 
-# Переменные для графика
-x_data = 0
-y_data = []
-
 # Создание класса спрайта
 class ball(pygame.sprite.Sprite):
     def __init__(self, speed:float) -> None:
@@ -102,8 +98,3 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-
-plt.plot(range(x_data), y_data)
-plt.xlabel("Итерация")
-plt.ylabel("Время жизни")
-plt.show()
